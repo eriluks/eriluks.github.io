@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- This is a declaration to tell the browser which version of HTML the page is using -->
+
+<html>
+<!-- This is the start of my code-->
+
+<head><!-- This is the head of the code. In here I can change the title and link other files to my page-->
+
+    <!--This is the text that will appear on the tab in the browser-->
+    <title>Process. IT.</title>
+
+
+    <!--CONNECTING MY HTML FILE WITH OTHER CSS FILES-->
+    <!--I'm resetting the browser styles-->
+    <link href="css/reset.css" rel="stylesheet">
+
+    <!--I'm importing nicer type-->
+    <link href="css/text.css" rel="stylesheet">
+
+    <!--linking 960 stylesheet-->
+    <link href="css/960.css" rel="stylesheet">
+
+    <!-- linking the stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--CONNECTING GOOGLE FONTS-->
+    <!--Im connecting Google fonts here with the weight of the font as 400 light and 900 for bold-->
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
+
+</head>
+<!--This is the end of the head-->
+
+<body><!--This is the body where all of the content is-->
+
+    <!-- The div is like a container which I will style using CSS -->
+    <!--The class is a name assigned to this container in which I will be able to style-->
+    <!--This is where most of the content is-->
+    <div class="wrapper">
+
+        <!--The container using the 12 collumn grid which is connected to the 960 stylesheet-->
+        <div class="container_12 main">
+            <!--This is the 'P' letter that is a part of my logo animation,-->
+            <div class="logo_p">P</div>
+            <!--This is the logo animation for which the code was referenced in the styling sheet-->
+            <div class="svg">
+                
+                <!--SVG is used for vector files which in this case is the logo, Im linking the code to w3.org and stating the version as well as setting the size-->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 213.235 241.176" enable-background="new 0 0 213.235 241.176" xml:space="preserve">
+                    
+                    <!--PATH will tell the vector where to go in x and y axis and fill opacity will define the opacity of the vector elemnt shape-->
+                    <path d="M108.581,64.968V14.124l44.007,25.422L108.581,64.968" />
+                    <path fill-opacity="0.9" d="M153.591,92.101V41.258L109.582,66.68L153.591,92.101" />
+                    <path d="M155.586,92.062V41.221l44.009,25.42L155.586,92.062" />
+                    <path fill-opacity="0.7" d="M200.299,119.14V68.297l-44.004,25.421L200.299,119.14" />
+                    <path fill-opacity="0.85" d="M155.586,146.255V95.412l44.009,25.422L155.586,146.255" />
+                    <path fill-opacity="0.7" d="M200.299,173.35v-50.844l-44.004,25.422L200.299,173.35" />
+                    <path fill-opacity="0.6" d="M155.586,200.482v-50.84l44.009,25.417L155.586,200.482" />
+                    <path fill-opacity="0.5" d="M153.591,200.521v-50.84l-44.009,25.418L153.591,200.521" />
+                    <path fill-opacity="0.6" d="M108.581,227.696v-50.844l44.007,25.421L108.581,227.696" />
+                    <path fill-opacity="0.5" d="M106.62,227.696v-50.844l-44.005,25.421L106.62,227.696" />
+                    <path fill-opacity="0.7" d="M61.562,200.553V149.71l44.007,25.423L61.562,200.553" />
+                    <path fill-opacity="0.7" d="M59.709,200.56v-50.843l-44.008,25.422L59.709,200.56" />
+                    <path fill-opacity="0.7" d="M14.699,173.467v-50.843l44.01,25.42L14.699,173.467" />
+                    <path fill-opacity="0.5" d="M59.709,146.235V95.392l-44.008,25.42L59.709,146.235" />
+                    <path fill-opacity="0.7" d="M14.699,119.141V68.297l44.01,25.421L14.699,119.141" />
+                    <path fill-opacity="0.6" d="M59.709,92.101V41.258L15.701,66.68L59.709,92.101" />
+                    <path fill-opacity="0.85" d="M61.562,92.092V41.249l44.007,25.419L61.562,92.092" />
+                    <path fill-opacity="0.9" d="M106.62,64.968V14.124L62.614,39.546L106.62,64.968" />
+                    
+                </svg>
+                <!--End of the vector-->
+            </div>
+            <!--End of the SVG div-->
+
+            <!--This is the navigation div where all the main navigation content is-->
+            <div class="navigation">
+
+                <!--Unordered List element which is used to create the navigational links-->
+                <ul>
+                    <li id="home">Home</li><!--Im selecting just the Home in order to style it later in css using the id-->
+                </ul>
+
+                <ul>
+                    <!-- a href will link to other html documents creating a navigation system-->
+                    <!--Im creating the A HREF id so that I can style it specifically-->
+                    <li><a id="nav" href="tutorials.html">Tutorials</a></li>
+                    <li><a id="nav" href="about.html">About</a></li>
+                    <li><a id="nav" href="users.html">Users</a></li>
+                    <!--This is the end of the lists-->
+                </ul>
+
+                <!--This is the end of the navigation div-->
+            </div>
+
+            <!--Im creating another div in order to be able to move around the attributes together-->
+            <div class="logo">
+
+                <!--This is a JavaScript document which Im stating here and which connects to the document outlined in "src"-->
+                <script src="js/date.js "></script>
+
+                <!--This will be my h1 text-->
+                <h1> Process. </h1>
+                <!--This will be my h2 text-->
+                <h2>IT.</h2>
+                
+            </div><!--This is the end of the logo div-->
+
+            <!--Because this text is in a different position Im creating another div for it-->
+            <div class="help">
+                <!--This is my h5-->
+                <h5>Help?</h5>
+                <!--The end of the help div-->
+            </div>
+            <!--This is the end div for help-->
+
+            <!--This is a div which is used for decoration to create a triangle for the logo-->
+            <div class="small_rectangle"></div>
+
+        </div><!--This is the end of the container div-->
+    </div> <!--This is the end of the wrapper container and the main content-->
+
+    
+    <div class="clear"></div><!--Clear property specifies on which sides the elements can't float-->
+
+    
+    <!--Im creating a new div with 2 class names using the grid_12 from 960 stylesheet-->
+    <!--All footer elements will be here-->
+    <div class="footer grid_12">
+
+        <h1 id="footer_logo"> Process.</h1><!--Another h1 element with a unique id to style it in css-->
+        <h2 id="footer_logo2">IT.</h2><!--h2 element with a unique id to style it in css-->
+
+        <!--Im creating another small triangle for the footer logo design-->
+        <div class="small_rectangle4"></div>
+
+        <!--This is another javascript for the digital time in the footer-->
+        <script src="js/time.js "></script>
+        <div id="clock"></div><!--The name of the javascript code 'time'-->
+
+
+        <!--Im creating a new div to have the links together in the footer-->
+        <div class="footer_text">
+            <!--This is another unsorted list-->
+            <ul>
+                <!--A list of li for links in the footer with unique IDs-->
+                <li><a id="footer_nav" href="index.html">Terms and Conditions.</a></li>
+                <li><a id="footer_nav" href="index.html">Frequently Asked Questions.</a></li>
+                <li><a id="footer_nav" href="index.html">Who are we?</a></li>
+                <!--the end of the unsorted list element-->
+            </ul>
+            <!--This is the end of the footer text div-->
+        </div>
+
+        <!--This is my h5 with a unique id-->
+        <h5 id="follow"> Follow Us!</h5>
+
+        <!--Im creating a new div for all the social media pictures to be in one place-->
+        <div class="media">
+            <!--In here Im making the file search for images by names in the src element and make them clickable-->
+            <!--The img element is self closing-->
+            <a href="index.html"><img src="images/facebook.png" alt="facebook" /></a>
+            <a href="index.html"><img src="images/twitter.png" alt="twitter" /></a>
+            <a href="index.html"><img src="images/myspace.png" alt="myspace" /></a>
+            <a href="index.html"><img src="images/vimeo.png" alt="vimeo" /></a>
+            <a href="index.html"><img src="images/youtube.png" alt="youtube" /></a>
+        </div><!--This is the end of the media div-->
+
+    </div><!--This is the end of the footer div-->
+
+    <div class="clear"></div><!--Clear property specifies on which sides the elements can't float-->
+
+    <!--This is my copyright text using the p element for easier and simple styling-->
+    <p id="copyright"> Copyright 2016. All Rights Reserved.</p>
+
+</body><!--This is the end of the body-->
+</html><!-- This is the end of my code-->
+
+<!--Student: Erika Volodko
+    Number: N00152627 -->

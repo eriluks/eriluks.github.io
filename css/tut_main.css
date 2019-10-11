@@ -1,0 +1,1682 @@
+/*/////////MAIN SETTINGS/////////*/
+/*Im selecting the body and applying the values inside the brackets*/
+body {
+    background-color: #252839;      /*This will set the background color to dark blue*/
+    -webkit- zoom: 100%;            /*This is zoom setting for chrome browser*/
+    -moz- zoom: 50%;                /*This is a zoom setting for mozilla browser*/
+}
+/*Im selecting the wrapper where all my main content is*/
+.wrapper {
+    background-color: #252839;      /*This will set the background color to dark blue*/
+    position: relative;             /*Relative position means that it will take into account other block sections*/
+}
+/*Im selecting the navigation links and my logo here*/
+.main {
+    position: relative;             /*Relative position means that it will take into account other block sections*/
+    background-color: #b5b5b7;      /*This will set the background color to grey*/
+    border-style: groove;           /*This is the border style*/
+    border-width: 0px 0px 0px 15px; /*The border will be on the left of the whole div*/
+    border-color: #677077;          /*The color of the border*/
+    margin-top: 50px;
+}
+
+/*Links styling*/
+#nav:link {
+    text-decoration: none;          /*This gets rid of the links decoration so that they dont have bulletpoints*/
+    color: #677077;                 /*This is the color of the navigation links*/
+}
+
+/*When the cursor is hovering on the link*/
+#nav:hover {
+    text-decoration: none;          /*This gets rid of the links decoration so that they dont have bulletpoints*/  
+    color: white;                   /*When the mouse hovers on the text it will turn white*/
+}
+
+/*When clicked on the link*/
+#nav:active {                       /*This is when the user is clicking on the link*/
+    text-decoration: none;          /*This gets rid of the links decoration so that they dont have bulletpoints*/  
+}
+/*When the link was already visited*/
+#nav:visited {                      /*This is when the user already visited the link*/
+    text-decoration: none;          /*This gets rid of the links decoration so that they dont have bulletpoints*/  
+    color: #677077;                 /*This sets the color to greyish blue which is the original color*/
+}
+/*Selecting all the link elements*/
+a:link {
+    text-decoration: none;          /*Gets rid of all the bulletpoints for all links*/
+}
+.clear {
+    clear: both;                    /*property specifies on which sides the elements can't float*/
+}
+
+
+/*/////////MAIN BODY/////////*/
+
+.hand{
+    margin-top: -65px;
+    position: relative;
+    margin-left: 80px;
+    /*Rotates the image*/
+    -webkit-transform: rotate(349deg);
+    -moz-transform: rotate(349deg);
+    -ms-transform: rotate(349deg);
+    -o-transform: rotate(349deg);
+    transform: rotate(-22deg);
+}
+
+.logo{
+    position: relative;
+    float: right;
+    padding: 20px;
+    margin-left: 700px;
+    margin-right: 30px;
+    margin-top: -120px;
+}
+
+#quote{
+    padding: 0px 120px 120px 120px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #252839; 
+    text-align: left;
+    line-height: 30px;
+    font-size: 18pt;
+    border-style: dashed;
+    border-width: 0px 10px 0px 0px;
+    border-color: #677077;
+    float: left;
+    height: 215px;
+}
+
+.main_text{
+    font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 120px 120px 120px;
+    float: right;
+    margin-top: 100px;
+    border-style: dashed;
+    border-width: 0px 0px 0px 10px;
+    border-color: #677077;
+    font-weight: 400;
+}
+
+.main_text2{
+    font-size: 18pt;
+     font-family: 'Roboto', sans-serif;
+    padding: 120px 120px 120px 120px;
+    float: left;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+#last_text{
+    margin-left: -250px;
+    margin-top:120px;
+    color: #252839; 
+   
+}
+
+/*/////////JAVASCRIPT STYLING//////////*/
+/*Selecting the time in the footer*/
+#clock {
+    font-size: 24pt;                   /*The size of the last text*/
+    color: white;                      /*The color of the text*/
+    font-family: 'Aldrich', sans-serif;/*The font of the text*/
+    padding: 10px 0px 0px 0px;         /*The space from bottom*/
+    position: relative;                /*Relative position means that it will take into account other block sections*/
+    float: left;                        /*This will make the content float left*/ 
+    font-weight: 900;                   /*How thick the text will be*/
+    margin-left: -199px;                /*How far from the left*/
+    margin-top: 150px;                  /*How far from the top*/
+    padding: 0px 40px 0px 0px;          /*Space from right*/
+}
+/*Selecting the data JS*/
+h3 {
+    font-family: 'Aldrich', sans-serif; /*The font of the date*/
+    color: #677077;                     /*The color of the text*/
+    font-size: 20pt;                    /*The text size*/
+    text-align: right;                  /*This will make the content float right*/ 
+}
+
+/*/////////FOOTER RELATED/////////*/
+/*Footer Links styling*/
+#footer_nav:link {
+    text-decoration: none;          /*Gets rid of the bulletpoints for links*/
+    color: #252839;                 /*The color*/
+    font-weight: 400;               /*How thick the letters are*/
+    font-size: 16pt;                /*The size of the text*/
+    font-family: 'Lato', sans-serif;/*The font of the text*/
+    line-height: 2;                 /*How far each line is away from each other*/
+}
+
+/*When the cursor is hovering on the link*/
+#footer_nav:hover {
+    text-decoration: none;          /*Gets rid of the bulletpoints for links*/
+    color: white;                   /*The color will turn to white when user hovers over the link*/
+}
+
+/*When clicked on the link*/
+#footer_nav:active {
+    text-decoration: none;          /*Gets rid of the bulletpoints for links*/
+    color: white;                   /*The color will turn to white when user clicks on the link*/
+}
+#footer_nav:visited {
+    text-decoration: none;          /*Gets rid of the bulletpoints for links*/
+    color: #252839;                 /*When the user already clicked the link the color will remain as originally it was*/
+}
+/*Selecting the main footer div*/
+.footer {
+    positon: relative;              /*Relative position means that it will take into account other block sections*/
+    float: right;                   /*This will make the content float right*/
+    margin-right: 0px;              /*This will position the footer to be fully on the right*/
+    width: 100%;                    /*The width of this div will always be 100% of the page*/
+    height: 230px;                  /*The height of the footer*/
+    background-color: #f2b632;      /*The color of the border*/
+    border-style: dashed;           /*The style of the border*/
+    border-width: 10px 0px 0px 0px; /*The border will only be at the top of the footer*/
+    border-color: #252839;          /*The color of the border*/
+}
+/*Selecting the footer logo div*/
+#footer_logo {
+    padding: 0px 0px 0px 55px;     /*The space from the right*/
+    position: relative;            /*Relative position means that it will take into account other block sections*/
+    margin-top: 40px;              /*Moving the logo from the top*/
+    margin-left: -25px;            /*Trying to position the logo */
+    float: left;                   /*This will make the content float left*/
+    color: #252839;                /*The color of the text*/
+}
+/*Selecting the footer logo2 div which is 'IT'*/
+#footer_logo2 {
+    padding: 0px 0px 0px 55px;     /*The space from the right*/
+    position: relative;            /*Relative position means that it will take into account other block sections*/
+    float: left;                   /*This will make the content float left*/
+    margin-left: -255px;           /*Trying to position the logo */
+    color: #252839;                /*The color of the text*/
+    margin-top: 90px;              /*Moving the logo from the top*/
+}
+/*Selecting the last text*/
+#copyright {
+    position: relative;             /*Relative position means that it will take into account other block sections*/
+    float: right;                   /*This will make the content float right*/
+    font-size: 10pt;                /*The size of the last text*/
+    color: #b5b5b7;                 /*The color of the text*/
+    margin-top: 20px;               /*How far from the top it is*/
+    font-family: 'Lato', sans-serif;/*The font of the text*/
+    padding: 0px 50px 0px 0px;      /*The space from the right*/
+}
+.footer_text {
+    position: relative;             /*Relative position means that it will take into account other block sections*/
+    padding: 0px 30px 0px 0px;      /*The space from the right*/
+    line-height: 30px;              /*How far lines are away from each other*/
+    border-style: solid;            /*The style of the border*/
+    border-width: 0px 0px 0px 10px; /*The border will be on the right*/
+    border-color: #252839;          /*The color of the border*/
+    float: right;                   /*This will make the content float right*/                  
+    margin-top: 50px;               /*How far from the top it is*/
+}
+/*Selecting the social media icons*/
+.media {
+    position: relative;             /*Relative position means that it will take into account other block sections*/
+    float: right;                   /*This will make the content float right*/   
+    margin-top: 80px;               /*How far from the top it is*/
+    margin-right: 10px;             /*Moving it from right by 10px*/
+}
+/*Selecting the follow text id*/
+#follow {
+    font-size: 26pt;                /*The size of the last text*/
+    color: #252839;                 /*The color of the text*/
+    position: relative;             /*Relative position means that it will take into account other block sections*/
+    float: right;                   /*This will make the content float right*/  
+    margin-right: 60px;             /*How far from right*/
+    margin-top: 90px;               /*How far from left*/
+}
+
+
+/*/////////DECORATION/////////*/
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 380px 1000px 0px 0;
+    border-color: #252839 transparent transparent transparent;
+    position: relative;
+    float: left;
+    margin-left: -30px;
+}
+
+.small_rectangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 30.5px 0 30.5px;
+    border-color: #f2b632 transparent transparent transparent;
+    position: absolute;
+    float: right;
+    margin-left: 842px;
+    margin-top: 470px;
+}
+
+.small_rectangle2{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 18px 0 18px 25px;
+    border-color: transparent transparent transparent #252839;
+    position: relative;
+    float: left;
+    margin-top: 105px;
+    margin-left: -115px;
+}
+
+hr{
+    width: 380px;
+    position: relative;
+    left: 58px;
+    border-top: 8px solid #677077;
+    top: -15px;
+}
+
+#hr2{
+    width: 840px;
+    position: relative;
+    left: 58px;
+    border-top: 8px solid #677077;
+    top: 20px;
+}
+#hr3{
+    width: 830px;
+    position: relative;
+    left: 58px;
+    border-top: 8px solid #677077;
+    top: 40px;
+}
+
+.circle{
+    width: 200px;
+	height: 200px;
+	background: white;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+/*/////////TYPOGRAPHY/////////*/
+#game{
+    color:  #f2b632;
+    text-shadow: 5px 5px #000026;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 80pt;
+    padding: 20px;
+    margin-top: -320px;
+    margin-left: 50px;
+    
+    /*Rotates the word*/
+    -webkit-transform: rotate(349deg);
+    -moz-transform: rotate(349deg);
+    -ms-transform: rotate(349deg);
+    -o-transform: rotate(349deg);
+    transform: rotate(338deg);
+}
+/*Styling the li element*/
+#home{
+    display: block;
+    font-size: 26pt;
+    font-family: 'Lato', sans-serif;
+    margin-top:  -95px;
+    margin-left: 270px;
+    
+    border-style: solid;
+    border-width: 0px 0px 0px 8px;
+    border-color: #f2b632;
+    padding: 0px 0px 0px 10px;
+    
+     /*Rotates the word*/
+    -webkit-transform: rotate(339deg);
+    -moz-transform: rotate(339deg);
+    -ms-transform: rotate(339deg);
+    -o-transform: rotate(339deg);
+    transform: rotate(339deg);
+}
+#tutorials{
+    display: block;
+    font-size: 26pt;
+    font-family: 'Lato', sans-serif;
+    margin-top:  -115px;
+    margin-left: 445px;
+    
+    border-style: solid;
+    border-width: 0px 0px 0px 8px;
+    border-color: #f2b632;
+    padding: 0px 0px 0px 10px;
+    
+     /*Rotates the word*/
+    -webkit-transform: rotate(349deg);
+    -moz-transform: rotate(349deg);
+    -ms-transform: rotate(349deg);
+    -o-transform: rotate(349deg);
+    transform: rotate(339deg);
+}
+
+#about{
+    display: block;
+    font-size: 26pt;
+    font-family: 'Roboto', sans-serif;
+    margin-top:  -127px;
+    margin-left: 650px;
+    
+    border-style: solid;
+    border-width: 0px 0px 0px 8px;
+    border-color: #f2b632;
+    padding: 0px 0px 0px 10px;
+    
+     /*Rotates the word*/
+    -webkit-transform: rotate(349deg);
+    -moz-transform: rotate(349deg);
+    -ms-transform: rotate(349deg);
+    -o-transform: rotate(349deg);
+    transform: rotate(339deg);
+}
+#users{
+    display: block;
+    font-size: 26pt;
+    font-family: 'Roboto', sans-serif;
+    margin-top:  -115px;
+    margin-left: 820px;
+    
+    border-style: solid;
+    border-width: 0px 0px 0px 8px;
+    border-color: #f2b632;
+    padding: 0px 0px 0px 10px;
+    
+     /*Rotates the word*/
+    -webkit-transform: rotate(349deg);
+    -moz-transform: rotate(349deg);
+    -ms-transform: rotate(349deg);
+    -o-transform: rotate(349deg);
+    transform: rotate(338deg);
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    color: #252839;
+    font-size: 35pt;
+    margin-left: 20px;
+}
+
+h2{
+    margin-top: -25px;
+    font-family: 'Merriweather', serif;
+    color: #f2b632;
+    font-size: 35pt;
+    text-align: right;
+}
+
+h5{
+
+    font-family: 'Oswald', sans-serif;
+    color: #f2b632;
+    font-size: 40pt;
+    text-align: right; 
+}
+
+#title{
+    font-size: 28pt;
+     color: #252839; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    float: left;
+    position: relative;
+    margin-left: 85px;
+    bottom: -15px;
+}
+
+#published{
+    font-size: 16pt;
+    color: #677077;
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 400;
+    float: left;
+    position: relative;
+    margin-left: 88px;
+    top: -10px;
+}
+
+#date{
+    font-size: 15pt;
+    color: #677077;
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 400;
+    float: left;
+    position: relative;
+    margin-left: -292px;
+    margin-top: 20px;
+}
+
+/*Styling the li element*/
+li{
+    display: block; /*this will get rid of the points near lists*/
+    font-size: 30pt;
+    font-family: 'Merriweather', serif;
+    padding:  0px 0px 0px 30px;
+}
+
+#slide_start{
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    opacity: .3;
+}
+
+#slide_1{
+    font-size: 25pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-shadow: 2px 2px #666;
+    margin-left: 5px;
+}
+
+#slide_2{
+    font-size: 25pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-shadow: 2px 2px #666;
+    margin-left: 62px;
+
+}
+
+#slide_3{
+    font-size: 25pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-shadow: 2px 2px #666;
+    margin-left: 15px;
+
+}
+
+#slide_4{
+    font-size: 25pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-shadow: 2px 2px #666;
+    margin-left: 25px;
+
+}
+
+#slide_5{
+    font-size: 25pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-shadow: 2px 2px #666;
+     margin-left: 95px;
+
+}
+
+#slide_6{
+    font-size: 25pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-shadow: 2px 2px #666;
+     margin-left: 12px;
+
+}
+
+#slide_7{
+    font-size: 27pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-shadow: 2px 2px #666;
+     margin-left: 10px;
+}
+
+#code_title{
+     font-family: 'Oswald', sans-serif;
+    font-size: 40pt;
+    padding: 50px;
+    text-align: center;
+    color: #677077;
+}
+
+/*///////TUTORIAL TYPOGRAPHY/////////*/
+
+.step_1{
+    position: relative;
+    font-size: 14pt;
+    color: white;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 50px 0px 0px;
+    font-weight: 200;
+}
+
+#step_1_title{
+    font-size: 18pt;
+    color: #252839; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#game_text {
+    color: #f2b632; 
+    font-weight: 900;
+}
+
+acronym{
+    font-weight: 900;
+    color: #252839; 
+    font-style: italic;
+}
+
+#acronym2{
+    font-weight: 900;
+    color: #f2b632; 
+    font-style: italic;
+}
+
+#step_2_title{
+    font-size: 18pt;
+    color: #f2b632;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#images_fonts{
+     color: #f2b632; 
+    font-weight: 900;
+}
+
+#note{
+    color: #f2b632; 
+    font-weight: 900;
+}
+
+#step_3_title{
+    font-size: 18pt;
+    color: #252839; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_4_title{
+    font-size: 18pt;
+    color: #f2b632;   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_5_title{
+    font-size: 18pt;
+    color: #252839;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#currentScreen{
+     color: #f2b632; 
+    font-weight: 900;
+}
+
+#step_6_title{
+    font-size: 18pt;
+    color: #f2b632;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_7_title{
+    font-size: 18pt;
+    color: #252839; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#start_screen{
+    color: #f2b632; 
+    font-weight: 900;
+}
+
+#step_8_title{
+    font-size: 18pt;
+    color: #f2b632;   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+#step_9_title{
+    font-size: 18pt;
+    color: #252839;;   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_9_click{
+    font-size: 14pt;
+    color: #252839;   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    float: right;
+}
+
+#step_10_title{
+    font-size: 18pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_11_title{
+    font-size: 18pt;
+    color: #252839;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_11_click{
+    font-size: 14pt;
+    color: #252839;   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_12_title{
+    font-size: 18pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_13_title{
+    font-size: 18pt;
+    color: #252839;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_13_click{
+    font-size: 14pt;
+    color: #252839;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_14_title{
+    font-size: 18pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#combinations_b{
+    color: #252839; 
+    font-weight: 900;
+}
+
+#step_15_title{
+    font-size: 18pt;
+    color: #252839;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_15_click{
+    font-size: 14pt;
+    color: #252839;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_16_title{
+    font-size: 18pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_17_title{
+    font-size: 18pt;
+    color:#252839; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_18_title{
+    font-size: 18pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+#step_19_title{
+    font-size: 18pt;
+    color: #252839; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#currentScreenThree{
+     color: #f2b632;
+    font-weight: 900;
+}
+#currentScreenFour{
+     color: #252839; 
+    font-weight: 900;
+}
+#step_20_title{
+    font-size: 18pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_21_title{
+    font-size: 18pt;
+    color: #252839;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_22_title{
+    font-size: 18pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_23_title{
+    font-size: 18pt;
+    color: #252839;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_23_click{
+    font-size: 14pt;
+    color: #252839;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_24_title{
+    font-size: 18pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+#lives{
+     color: #f2b632;
+}
+
+#step_25_title{
+    font-size: 18pt;
+    color: #252839;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+
+#step_25_click{
+    font-size: 14pt;
+    color: #252839;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_26_title{
+    font-size: 18pt;
+    color: #f2b632; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#lives_b{
+    color: #f2b632; 
+    font-weight: 900;
+}
+
+#step_27_title{
+    font-size: 18pt;
+    color: #252839;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_27_click{
+    font-size: 14pt;
+    color: #252839;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_28_title{
+    font-size: 18pt;
+    color: #f2b632;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_28_click{
+    font-size: 14pt;
+    color:  #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_29_title{
+    font-size: 18pt;
+    color: #252839; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_29_click{
+    font-size: 14pt;
+    color:  #252839;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_30_title{
+    font-size: 18pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_31_title{
+    font-size: 18pt;
+    color: #252839;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_32_title{
+    font-size: 18pt;
+    color: #f2b632;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#step_33_title{
+    font-size: 18pt;
+    color: #252839;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+/*////////SLIDESHOW CODE/////*/
+/*Code goten from https://www.kirupa.com/html5/creating_a_sweet_content_slider.htm 
+and edited to suit my site*/
+
+ #contentContainer {
+            width: 770px;
+            height: 350px;
+            border: 5px #f2b632 solid;
+            overflow: hidden;
+     margin-left: 80px;
+     float: left;
+     position: relative;
+        }
+
+        #wrapper {
+            width: 26950px;  /* amount of slides multiplied by 770px */
+            position: relative;
+            left: 0px;
+            transition: left .5s ease-in-out;
+        }
+
+/*THE POSITION OF THE IMAGES INSIDE THE SLIDESHOW*/
+#img1{
+    margin-top: -245px;
+}
+
+#img2{
+     margin-top: -335px;
+}
+
+#img3{
+    margin-top: -300px;
+}
+
+#img4{
+    margin-top: -300px;
+}
+
+#img5{
+    margin-top: -265px;
+}
+#img6{
+    margin-top: -330px;
+}
+#img7{
+    margin-top: -330px;
+}
+#img8{
+    margin-top: -330px;
+}
+#img9{
+    margin-top: -275px;
+}
+#img10{
+    margin-top: -330px;
+}
+#img11{
+    margin-top: -330px;
+}
+#img12{
+    margin-top: -330px;
+}
+#img13{
+    margin-top: -300px;
+}
+#img14{
+    margin-top: -330px;
+}
+#img15{
+    margin-top: -300px;
+}
+#img16{
+    margin-top: -270px;
+}
+#img17{
+    margin-top: -215px;
+}
+#img18{
+    margin-top: -330px;
+}
+#img19{
+    margin-top: -300px;
+}
+#img20{
+    margin-top: -300px;
+}
+#img21{
+    margin-top: -245px;
+}
+#img22{
+    margin-top: -300px;
+}
+#img23{
+    margin-top: -270px;
+}
+#img24{
+    margin-top: -325px;
+}
+#img25{
+    margin-top: -215px;
+}
+#img26{
+    margin-top: -335px;
+}
+#img27{
+    margin-top: -270px;
+}
+#img28{
+    margin-top: -300px;
+}
+#img29{
+    margin-top: -300px;
+}
+#img30{
+    margin-top: -220px;
+}
+#img31{
+    margin-top: -270px;
+}
+#img32{
+    margin-top: -335px;
+}
+#img33{
+    margin-top: -300px;
+}
+        .content {
+            float: left;
+            height: 350px;
+            white-space: normal;
+            width: 770px;
+            text-align: left;
+            padding-top: 3px;
+        }
+
+		#itemOne {
+		    background-color: #252839; 
+		}
+		
+		#itemTwo {
+		    background-color: #677077;
+		}
+		
+		#itemThree {
+		    background-color: #252839; 
+		}
+		
+		#itemFour {
+		    background-color: #677077;
+		}
+
+		#itemFive{
+		    background-color: #252839; 
+		}
+		
+		#itemSix {
+		    background-color: #677077;
+		}
+		
+		#itemSeven {
+		    background-color: #252839; 
+		}
+		
+		#itemEight {
+		    background-color: #677077;
+		}
+		#itemNine {
+		    background-color: #252839; 
+		}
+		
+		#itemTen {
+		    background-color: #677077;
+		}
+		
+		#itemEleven {
+		    background-color: #252839; 
+		}
+
+        #itemTwelve{
+		    background-color: #677077; 
+		}
+
+        #itemThirteen{
+		    background-color: #252839;
+		}
+
+        #itemFourteen{
+		    background-color: #677077; 
+		}
+
+        #itemFifteen{
+		    background-color: #252839;
+		}
+
+        #itemSixteen{
+		    background-color: #677077; 
+		}
+
+        #itemSeventeen{
+		    background-color: #252839; 
+		}
+
+        #itemEighteen{
+		    background-color: #677077; 
+		}
+
+        #itemNineteen{
+		    background-color: #252839;
+		}
+
+        #itemTwenty{
+		    background-color: #677077; 
+		}
+
+        #itemTwentyOne{
+		    background-color: #252839;
+		}
+        #itemTwentyTwo{
+		    background-color: #677077; 
+		}
+        #itemTwentyThree{
+		    background-color: #252839;
+		}
+        #itemTwentyFour{
+		    background-color: #677077;
+		}
+         #itemTwentyFive{
+		    background-color: #252839;
+		}
+         #itemTwentySix{
+		    background-color: #677077;
+		}
+         #itemTwentySeven{
+		    background-color: #252839;
+		}
+         #itemTwentyEight{
+		    background-color: #677077;
+		}
+         #itemTwentyNine{
+		    background-color: #252839;
+		}
+         #itemThirty{
+		    background-color:  #677077;
+		}
+         #itemThirtyOne{
+		    background-color:  #252839;
+		}
+         #itemThirtyTwo{
+		    background-color:  #677077;
+		}
+         #itemThirtyThree{
+		    background-color:  #252839;
+		}
+         #itemThirtyFour{
+		    background-color:  #677077;
+		}
+
+
+
+        #navLinks {
+            text-align: center;
+            margin-left: 80px;
+            width: 900px;
+            
+        }
+
+            #navLinks ul {
+                margin: 0px;
+                padding: 0px;
+                display: inline-block;
+                float: left;
+                
+            }
+
+                #navLinks ul li {
+                    float: left;
+                    text-align: center;
+                    margin: 10px;
+                    list-style: none;
+                    cursor: pointer;
+                    background-color: #f2b632; 
+                    padding: 7px;
+                    border-radius: 50%;
+                    border: #252839 10px solid;
+                }
+
+                    #navLinks ul li:hover {
+                        background-color: white;
+                    }
+
+                    #navLinks ul li.active {
+                        background-color: #252839;
+                        color: #FFFFFF;
+                        outline-width: 32px;
+                    }
+
+                        #navLinks ul li.active:hover {
+                            background-color:#252839 ;
+                            color: #FFFFFF;
+                        }
+
+/*////////ANIMATION/////////
+EXAMPLE FROM https://www.youtube.com/watch?v=wrnQiOY6khQ */
+.runner{
+    width: 266.666px;
+    height: 200px;
+    background: url(http://stephino.com/runner.png);
+    animation: run 1s steps(24) infinite, slide 2s steps(100) infinite;
+    margin-left: -25px;
+}
+
+@keyframes run{
+    100% { background-position: -6400px;}
+}
+
+/*/////////CODE DESIGN////////*/
+#code_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code{
+    position: relative;
+    float: left;
+    background-color: #47474c;
+    margin-top: 0px;
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+#code2_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code2{
+    position: relative;
+    float: left;
+    background-color: #47474c;
+    margin-top: 50px;
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+#code3_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code3{
+    position: relative;
+    float: left;
+    background-color: #47474c;
+    margin-top: 50px;
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+#code4_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code4{
+    position: relative;
+    float: left;
+    background-color: #47474c;
+    margin-top: 50px;
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+#code5_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code5{
+    position: relative;
+    float: left;
+    background-color: #343951; 
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+
+
+#code6_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code6{
+    position: relative;
+    float: left;
+    background-color: #343951; 
+    margin-top: 50px;
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+
+/*Links styling*/
+
+#go_back2{
+    float: right;
+    font-size: 20pt;
+    font-family: 'Merriweather', serif;
+    color: #343951; 
+    margin-top: 70px;
+    width: 550px;
+    font-weight: 900;
+    margin-right: 25px;
+    
+}
+#go_back2:link {
+    font-size: 20pt;
+    font-family: 'Merriweather', serif;
+    margin-top: 70px;
+    width: 550px;
+    font-weight: 900;
+    color: #343951; 
+}
+
+/*When the cursor is hovering on the link*/
+#go_back2:hover {
+    text-decoration: none;
+    color: white;
+}
+/*When clicked on the link*/
+#go_back2:active {
+    text-decoration: none;
+    color: white;
+}
+
+#go_back2:visited {
+   text-decoration: none;
+    color: #343951;  
+    
+}
+
+
+#code7_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code7{
+    position: relative;
+    float: left;
+    background-color: #343951; 
+    margin-top: 50px;
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+
+
+/*Links styling*/
+
+#go_back3{
+    float: right;
+    font-size: 20pt;
+    font-family: 'Merriweather', serif;
+    color: #343951; 
+    margin-top: 70px;
+    width: 550px;
+    font-weight: 900;
+    margin-right: 25px;
+    
+}
+#go_back3:link {
+    font-size: 20pt;
+    font-family: 'Merriweather', serif;
+    margin-top: 70px;
+    width: 550px;
+    font-weight: 900;
+    color: #343951; 
+}
+
+/*When the cursor is hovering on the link*/
+#go_back3:hover {
+    text-decoration: none;
+    color: white;
+}
+/*When clicked on the link*/
+#go_back3:active {
+    text-decoration: none;
+    color: white;
+}
+
+#go_back3:visited {
+   text-decoration: none;
+    color: #343951;  
+    
+}
+
+
+#code8_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code8{
+    position: relative;
+    float: left;
+    background-color: #343951; 
+    margin-top: 50px;
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+
+/*Links styling*/
+
+#go_back5{
+    float: right;
+    font-size: 20pt;
+    font-family: 'Merriweather', serif;
+    color: #343951; 
+    margin-top: 70px;
+    width: 550px;
+    font-weight: 900;
+    margin-right: 25px;
+    
+}
+#go_back5:link {
+    font-size: 20pt;
+    font-family: 'Merriweather', serif;
+    margin-top: 70px;
+    width: 550px;
+    font-weight: 900;
+    color: #343951; 
+}
+
+/*When the cursor is hovering on the link*/
+#go_back5:hover {
+    text-decoration: none;
+    color: white;
+}
+/*When clicked on the link*/
+#go_back5:active {
+    text-decoration: none;
+    color: white;
+}
+
+#go_back5:visited {
+   text-decoration: none;
+    color: #343951;  
+    
+}
+
+
+#code9_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code9{
+    position: relative;
+    float: left;
+    background-color: #343951; 
+    margin-top: 50px;
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+
+/*Links styling*/
+
+#go_back6{
+    float: right;
+    font-size: 20pt;
+    font-family: 'Merriweather', serif;
+    color: #343951; 
+    margin-top: 70px;
+    width: 550px;
+    font-weight: 900;
+    margin-right: 25px;
+    
+}
+#go_back6:link {
+    font-size: 20pt;
+    font-family: 'Merriweather', serif;
+    margin-top: 70px;
+    width: 550px;
+    font-weight: 900;
+    color: #343951; 
+}
+
+/*When the cursor is hovering on the link*/
+#go_back6:hover {
+    text-decoration: none;
+    color: white;
+}
+/*When clicked on the link*/
+#go_back6:active {
+    text-decoration: none;
+    color: white;
+}
+
+#go_back6:visited {
+   text-decoration: none;
+    color: #343951;  
+    
+}
+
+
+#code10_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code10{
+    position: relative;
+    float: left;
+    background-color: #343951; 
+    margin-top: 50px;
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+
+/*Links styling*/
+
+#go_back7{
+    float: right;
+    font-size: 20pt;
+    font-family: 'Merriweather', serif;
+    color: #343951; 
+    margin-top: 70px;
+    width: 550px;
+    font-weight: 900;
+    margin-right: 25px;
+    
+}
+#go_back7:link {
+    font-size: 20pt;
+    font-family: 'Merriweather', serif;
+    margin-top: 70px;
+    width: 550px;
+    font-weight: 900;
+    color: #343951; 
+}
+
+/*When the cursor is hovering on the link*/
+#go_back7:hover {
+    text-decoration: none;
+    color: white;
+}
+/*When clicked on the link*/
+#go_back7:active {
+    text-decoration: none;
+    color: white;
+}
+
+#go_back7:visited {
+   text-decoration: none;
+    color: #343951;  
+    
+}
+
+
+#code11_text{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: left;
+    color: #ccc;
+}
+.code11{
+    position: relative;
+    float: left;
+    background-color: #c98e0d; 
+    height: 250px;
+    border: 5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    margin-left: 55px;
+    padding: 20px;
+}
+
+/*///////STYLING THE END///////*/
+#click_data{
+    font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: #ccc; 
+    margin-left: 50px;
+    border-style: solid;
+    border-width: 0px 0px 0px 15px;
+    border-color: #252839; 
+    
+}
+#click_processing{
+    font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: #ccc; 
+    margin-left: 50px;
+    border-style: solid;
+    border-width: 0px 0px 0px 15px;
+    border-color: #252839; 
+    
+}
+
+.end_text{
+    margin-top: 50px;
+    background-color: #677077;
+    padding: 20px;
+    float: left;
+    margin-left: 190px;
+    border: 5px dashed #b5b5b7;
+}
+.space{
+    width: 200px;
+	height: 50px;
+}
