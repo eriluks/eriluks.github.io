@@ -271,10 +271,14 @@ h3 {
     margin-left: 90px;
     float: left;
 }
-.circle1:hover,
-.circle2:hover,
+.circle1:hover{
+    background-color: #f2b632;
+}
+.circle2:hover{
+    background-color: #252839;
+}
 .circle3:hover {
-    background-color: #677077;
+    background-color: #666;
 }
 .vertical_line {
     width: 1200px;

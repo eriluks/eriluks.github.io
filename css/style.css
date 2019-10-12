@@ -29,17 +29,17 @@ body {
 
 /*When the cursor is hovering on the link*/
 #nav:hover {
-    text-decoration: none;          /*This gets rid of the links decoration so that they dont have bulletpoints*/  
+    text-decoration: none;          /*This gets rid of the links decoration so that they dont have bulletpoints*/
     color: white;                   /*When the mouse hovers on the text it will turn white*/
 }
 
 /*When clicked on the link*/
 #nav:active {                       /*This is when the user is clicking on the link*/
-    text-decoration: none;          /*This gets rid of the links decoration so that they dont have bulletpoints*/  
+    text-decoration: none;          /*This gets rid of the links decoration so that they dont have bulletpoints*/
 }
 /*When the link was already visited*/
 #nav:visited {                      /*This is when the user already visited the link*/
-    text-decoration: none;          /*This gets rid of the links decoration so that they dont have bulletpoints*/  
+    text-decoration: none;          /*This gets rid of the links decoration so that they dont have bulletpoints*/
     color: #677077;                 /*This sets the color to greyish blue which is the original color*/
 }
 /*Selecting all the link elements*/
@@ -151,13 +151,13 @@ a:link {
     border-style: solid;            /*The style of the border*/
     border-width: 0px 0px 0px 10px; /*The border will be on the right*/
     border-color: #252839;          /*The color of the border*/
-    float: right;                   /*This will make the content float right*/                  
+    float: right;                   /*This will make the content float right*/
     margin-top: 50px;               /*How far from the top it is*/
 }
 /*Selecting the social media icons*/
 .media {
     position: relative;             /*Relative position means that it will take into account other block sections*/
-    float: right;                   /*This will make the content float right*/   
+    float: right;                   /*This will make the content float right*/
     margin-top: 80px;               /*How far from the top it is*/
     margin-right: 10px;             /*Moving it from right by 10px*/
 }
@@ -166,7 +166,7 @@ a:link {
     font-size: 26pt;                /*The size of the last text*/
     color: #252839;                 /*The color of the text*/
     position: relative;             /*Relative position means that it will take into account other block sections*/
-    float: right;                   /*This will make the content float right*/  
+    float: right;                   /*This will make the content float right*/
     margin-right: 60px;             /*How far from right*/
     margin-top: 90px;               /*How far from left*/
 }
@@ -179,7 +179,7 @@ a:link {
     font-family: 'Aldrich', sans-serif;/*The font of the text*/
     padding: 10px 0px 0px 0px;         /*The space from bottom*/
     position: relative;                /*Relative position means that it will take into account other block sections*/
-    float: left;                        /*This will make the content float left*/ 
+    float: left;                        /*This will make the content float left*/
     font-weight: 900;                   /*How thick the text will be*/
     margin-left: -199px;                /*How far from the left*/
     margin-top: 150px;                  /*How far from the top*/
@@ -190,7 +190,7 @@ h3 {
     font-family: 'Aldrich', sans-serif; /*The font of the date*/
     color: #677077;                     /*The color of the text*/
     font-size: 20pt;                    /*The text size*/
-    text-align: right;                  /*This will make the content float right*/ 
+    text-align: right;                  /*This will make the content float right*/
 }
 
 /*/////////DECORATION/////////*/
@@ -276,10 +276,10 @@ h6 {
 .logo_p {
     font-family: 'Aldrich', sans-serif;
     font-weight: 900;
-    font-size: 500pt;
+    font-size: 200pt;
     position: relative;
     float: left;
-    margin-left: -585px;
+    margin-left: -250px;
     margin-top: -23px;
     background-color: #161721;                      /*The outline around the letter*/
     -webkit-background-clip: text;                  /*this is for a different browser*/
@@ -294,8 +294,8 @@ h6 {
     display: block;                 /*Will display this in a block*/
     position: relative;             /*The position will take into account other relative content*/
     float: left;
-    margin-left: -415px;             /*How far from the left*/
-    margin-top: 290px;               /*How far from the top*/
+    margin-left: -180px;             /*How far from the left*/
+    margin-top: 105px;               /*How far from the top*/
     text-align: center;              /*this aligns the logo inside*/
 }
 
